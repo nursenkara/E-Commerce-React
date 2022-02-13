@@ -1,7 +1,7 @@
 export interface Product {
     id:Number,
     name:String,
-    brandId:number,
+    brandId:Number,
     brandName:String,
     code:Number,
     price:Number,
@@ -10,4 +10,7 @@ export interface Product {
     description:String,
     imagePath:String,
     active:Boolean,
+    star:String,
+    company:String,
+    slug:Number,
 }
